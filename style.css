@@ -1,0 +1,244 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  padding: 40px 0px;
+  color: #678983;
+}
+
+main {
+  /* background-color: #fff;*/
+  border: 1px solid #ddd;
+  box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+a,
+a:hover {
+  color: #678983;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #678983;
+}
+
+.left-side {
+  padding: 25px;
+  background-color: #181d31;
+}
+
+.profilePic {
+  padding-bottom: 15px;
+}
+
+.profile h1 {
+  padding-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.profile h2 {
+  text-align: center;
+}
+.profile p {
+  padding: 20px;
+  text-align: justify;
+  color: #e6ddc4;
+}
+
+.picture {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picture img {
+  max-width: 100%;
+}
+
+.btn-download {
+  padding: 10px;
+  color: #181d31;
+  background-color: #678983;
+  width: 100%;
+  border-radius: 0px;
+}
+.btn-download:hover {
+  color: #fff;
+  background-color: #181d31;
+}
+
+.btn-resume,
+.btn-reset {
+  padding: 10px;
+  color: #181d31;
+  background-color: #678983;
+  width: 45%;
+  border-radius: 0px;
+  margin-left: 10px;
+}
+
+.btn-resume:hover,
+.btn-reset:hover {
+  color: #fff;
+  background-color: #181d31;
+}
+
+form .btn {
+  margin-left: 20px;
+}
+
+.btn:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
+  color: white;
+}
+
+.social {
+  padding: 20px;
+  list-style-type: none;
+}
+
+.social i {
+  width: 20px;
+}
+
+.social a {
+  color: #f0e9d2;
+}
+
+.right-side {
+  padding: 0px;
+  background-color: E6DDC4;
+}
+
+section {
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.section-title {
+  text-transform: uppercase;
+  margin-left: -5px;
+}
+
+.upper-row {
+  position: relative;
+}
+
+.education {
+  margin-top: 10px;
+}
+
+.softSkill,
+.techSkill,
+.language {
+  margin-top: 20px;
+}
+
+.company,
+.school-title {
+  color: #181d31;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.time {
+  font-size: 15px;
+  font-weight: 500;
+  color: #181d31;
+}
+
+.job-title,
+.school-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #181d31;
+}
+
+.GPA,
+.issueBy,
+.trainingInfo {
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 5px;
+  color: #678983;
+}
+
+.job li {
+  font-size: 15px;
+  color: #678983;
+}
+.softSkill li,
+.techSkill li,
+.language li {
+  font-size: 15px;
+  color: #e6ddc4;
+}
+
+.training h3,
+.nameCert {
+  color: #181d31;
+  font-size: 17px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.contact-form {
+  padding-top: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  border-radius: 0px;
+  border-color: #ddd;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-radius: 0px;
+  border-color: #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+}
+small {
+  font-size: x-small;
+  font-style: italic;
+}
+
+@media (max-width: 991.98px) {
+  .right-side {
+    border-top: 1px solid #ddd;
+  }
+}
+
+@media (min-width: 992px) {
+  .left-side {
+    border-right: 1px solid #ddd;
+  }
+
+  .time {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  header {
+    /* fixed sidebar */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 25px;
+  }
+
+  form .btn {
+    margin-left: 0px;
+  }
+
+  form .btn-reset,
+  .btn-resume {
+    padding-top: 10px;
+  }
+}
